@@ -1,13 +1,16 @@
-Vim syntax highlighting for Fasto.
-Created by Oleksandr Shturmov <oleks@oleks.info> on November 1, 2014.
+# Vim syntax highlighting for Fasto.
+
+> Created by Oleksandr Shturmov <oleks@oleks.info> on November 1, 2014.  
+> Modified by Martin Christiansen <me@martinmch.com> on February 14, 2018
 
 To install:
 
 1. Copy fasto.vim into your ~/.vim/syntax/ (create the directory if it doesn't
-already exist).
+   already exist).
 
 2. Add the following line to your ~/.vimrc. This will make sure that any .fo
-file is recognised as a fasto file. It is important that fasto.vim is present
-in ~/.vim/syntax/ for syntax highlighting to work.
-
+   file is recognised as a fasto file. It is important that fasto.vim is present
+   in ~/.vim/syntax/ for syntax highlighting to work.
+```vimscript    
 au BufNewFile,BufRead *.fo setlocal ft=fasto
+```
