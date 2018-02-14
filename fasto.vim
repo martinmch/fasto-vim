@@ -1,6 +1,6 @@
 " Vim syntax file for Fasto.
 " Created by Oleksandr Shturmov <oleks@oleks.info> on November 1, 2014.
-" Modified by Martin Christiansen <me@martinmch.com> on February 14, 2014.
+" Modified by Martin Christiansen <me@martinmch.com> on February 14, 2018.
 
 if exists("b:current_syntax")
   finish
